@@ -1,0 +1,46 @@
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image: url("concert.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.keys{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key{
+  box-sizing: border-box;
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  border: 3px black solid;
+}
+
+.key kbd{
+  display: block;
+  font-size: 40px;
+  color: white;
+}
+.key span{
+  color: yellow;
+}
