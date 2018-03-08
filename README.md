@@ -10,3 +10,8 @@ Good News Everyone!
 This repository was created to keep track of my progress in the JavaScript 30 Day Challenge.
 
 ---
+
+### Day 1: 8 March 2018
+**Notes:** Used keyEvents, transitions an es6 templates
+
+**Tool Found:** For finding javascript keycodes just look at [keycode.info](http://keycode.info/)
