@@ -1,2 +1,12 @@
 # JavaScript30
-My Repo for participating in 30 Day Vanilla JS Challenges by @wesbos https://JavaScript30.com
+> Course created by [Wes Bos](https://github.com/wesbos). Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)
+
+<h1 align="center">
+  <img src="https://javascript30.com/images/JS3-social-share.png" style="max-width:100%" alt="JavaScript30" />
+</h1>
+
+Good News Everyone!
+
+This repository was created to keep track of my progress in the JavaScript 30 Day Challenge.
+
+---
