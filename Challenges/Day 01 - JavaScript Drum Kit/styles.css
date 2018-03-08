@@ -41,6 +41,22 @@ body{
   font-size: 40px;
   color: white;
 }
+
 .key span{
   color: yellow;
+}
+
+.key.playing{
+  transform: scale(1.1);
+  background-color: rgba(241, 238, 15, 0.562);
+  color: black;
+  border: 4px yellow solid;
+}
+
+.key.playing kbd{
+  color: black;
+}
+
+.key.playing span{
+  color: white;
 }
