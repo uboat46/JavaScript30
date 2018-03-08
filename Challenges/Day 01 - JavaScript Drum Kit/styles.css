@@ -34,6 +34,7 @@ body{
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
   border: 3px black solid;
+  transition: all 0.05s;
 }
 
 .key kbd{
