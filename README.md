@@ -15,3 +15,6 @@ This repository was created to keep track of my progress in the JavaScript 30 Da
 **Notes:** Used keyEvents, transitions an es6 templates
 
 **Tool Found:** For finding javascript keycodes just look at [keycode.info](http://keycode.info/)
+
+### Day 2: 9 March 2018
+**Notes:** Used timers, css transformations and positions
