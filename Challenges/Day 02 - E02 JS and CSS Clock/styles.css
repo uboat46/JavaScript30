@@ -53,3 +53,77 @@ body{
   width: 10rem;
   border: 2px red solid;
 }
+
+.number{
+  position: absolute;
+  top: 50%;
+  width: 10rem;
+  transform-origin: 100%;
+}
+
+.number div{
+  margin: 0;
+  height: .5rem;
+  width: 1rem;
+  text-align: center;
+  transform: rotate(-90deg);
+}
+
+.twelve{
+  text-align: left;
+  transform: rotate(90deg);
+}
+.one{
+  text-align: left;
+  transform: rotate(120deg);
+}
+
+.two{
+  text-align: left;
+  transform: rotate(150deg);
+}
+
+.three{
+  text-align: left;
+  transform: rotate(180deg);
+}
+
+.four{
+  text-align: left;
+  transform: rotate(210deg);
+}
+
+.five{
+  text-align: left;
+  transform: rotate(240deg);
+}
+
+.six{
+  text-align: left;
+  transform: rotate(270deg);
+}
+
+.seven{
+  text-align: left;
+  transform: rotate(300deg);
+}
+
+.eight{
+  text-align: left;
+  transform: rotate(330deg);
+}
+
+.nine{
+  text-align: left;
+  transform: rotate(360deg);
+}
+
+.ten{
+  text-align: left;
+  transform: rotate(390deg);
+}
+
+.eleven{
+  text-align: left;
+  transform: rotate(420deg);
+}
