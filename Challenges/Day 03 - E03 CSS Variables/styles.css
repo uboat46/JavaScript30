@@ -1,0 +1,63 @@
+:root{
+  --color: #ffffff;
+  --spacing: 10px;
+  --blur: 5px;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Georgia, sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.title{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: rgb(82, 19, 255);
+}
+
+.title h1{
+  margin: auto;
+  text-align: center;
+}
+
+.js{
+  color: var(--color);
+}
+
+.controls{
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.control{
+  flex-grow: 1;
+  text-align: center;
+  font-size: 18px;
+}
+
+.image{
+  height: 70%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: var(--spacing);
+  background-color: var(--color);
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  filter: blur(var(--blur));
+}
