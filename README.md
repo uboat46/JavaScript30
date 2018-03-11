@@ -18,3 +18,6 @@ This repository was created to keep track of my progress in the JavaScript 30 Da
 
 ### Day 2: 9 March 2018
 **Notes:** Used timers, css transformations and positions
+
+### Day 3: 10 March 2018
+**Notes:** Used js events, learned about css variables and how to change them via javascript.
