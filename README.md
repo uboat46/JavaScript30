@@ -21,3 +21,9 @@ This repository was created to keep track of my progress in the JavaScript 30 Da
 
 ### Day 3: 10 March 2018
 **Notes:** Used js events, learned about css variables and how to change them via javascript.
+
+### Day 4: 11 March 2018
+**Notes:** Couldn`t work this day
+
+### Day 5: 12 March 2018
+**Notes:** Worked with Array.prototype methods to filter, sort, map and reduce
