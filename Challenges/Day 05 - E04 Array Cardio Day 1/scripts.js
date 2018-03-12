@@ -103,7 +103,18 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    res = people.map(person =>{
+      var name = person.split(',');
+      return {first: name[0].trim(), last: name[1].trim()}
+    }).sort((a ,b) => {
+      return a.last.toLowerCase() > b.last.toLowerCase() ? 1 : -1;
+    })
 
+    document.writeln("People sorted alphabetically by last name <br>============================<br>");
+    res.forEach((person, index) => {
+      document.writeln(`${(index + 1)}.- ${person.first} ${person.last}<br>`);
+    })
+    document.writeln("<hr><hr>")
     //=======================================================================================================
     //=======================================================================================================
     //=======================================================================================================
@@ -111,3 +122,14 @@
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+    res = data.reduce((total, obj) => {
+      total[obj] != undefined ? (total[obj]++) : (total[obj] = 0);
+      return total;      
+    }, [])
+    
+    document.writeln("Sum of instances <br>============================<br>");
+    for(obj in res){
+      document.writeln(`${obj} = ${res[obj]} <br>`)
+    }
+    document.writeln("<hr><hr>")
