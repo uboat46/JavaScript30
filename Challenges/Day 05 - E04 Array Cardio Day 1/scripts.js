@@ -1,8 +1,3 @@
-// Get your shorts on - this is an array workout!
-    // ## Array Cardio Day 1
-
-    // Some data we can work with
-
     const inventors = [
       { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
       { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
@@ -22,24 +17,96 @@
 
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
+    var res = inventors.filter(inventor => {
+      return (1500 <= inventor.year && inventor.year < 1600);
+    })
+
+    document.writeln("Inventors who were born in the 1500´s <br>============================<br>");
+    res.forEach(inventor => {
+      document.writeln(inventor.first + " " +  inventor.last + " born in, " + inventor.year + "<br>");
+    })
+    document.writeln("<hr><hr>")
+
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
+    res = inventors.map(inventor => {
+      return inventor.first + " " + inventor.last;
+    })
+
+    document.writeln("Inventors first and last name <br>============================<br>");
+    res.forEach((inventor, index) => {
+      document.writeln((index + 1) + ".- " + inventor + "<br>");
+    })
+    document.writeln("<hr><hr>")
+
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+    res = inventors.sort((a, b) => {
+      return b.year - a.year;
+    })
+
+    document.writeln("Inventors sorted by birthdate (oldest to youngest) <br>============================<br>");
+    res.forEach((inventor, index) => {
+      document.writeln((index + 1) + ".- " + inventor.first + " " + inventor.last + " - " + inventor.year + "<br>");
+    })
+    document.writeln("<hr><hr>")
+
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
+    res = inventors.reduce((total, inventor, index) => {
+      return total + (inventor.passed - inventor.year);
+    }, 0)
+
+    document.writeln("Inventor´s total life years <br>============================<br>");
+    document.writeln("Total life years = " + res);
+    document.writeln("<hr><hr>")
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // 5. Sort the inventors by years lived
+    res = inventors.map(inventor => {
+      return {name: (inventor.first + " " + inventor.last),
+              years: (inventor.passed - inventor.year)}
+    }).sort((a, b) =>{
+      return b.years - a.years;
+    })
+
+    document.writeln("Inventors sorted by years lived <br>============================<br>");
+    res.forEach((inventor, index) => {
+      document.writeln((index + 1) + ".- " + inventor.name +  " who lived " + inventor.years + " years<br>");
+    })
+    document.writeln("<hr><hr>")
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
 
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
+
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+
+    //=======================================================================================================
+    //=======================================================================================================
+    //=======================================================================================================
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
