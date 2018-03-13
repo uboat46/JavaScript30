@@ -27,3 +27,6 @@ This repository was created to keep track of my progress in the JavaScript 30 Da
 
 ### Day 5: 12 March 2018
 **Notes:** Worked with Array.prototype methods to filter, sort, map and reduce
+
+### Day 6: 13 March 2018
+**Notes:** Used flexbox, a really cool tool to work with dom element sizes and positions!
